@@ -1,0 +1,33 @@
+.Ogacontainer{
+display:grid;
+height:100vh;
+gap:10px;
+grid-template-columns:1fr 6fr;
+grid-template-areas:
+"olu olu"
+"Mide Jide"
+"Falowo Jide"
+"Falowo Emma";
+grid-template-rows:60px 1fr 400px 60px
+}
+
+.OLU1{
+background-color:green;
+grid-area:olu;
+
+}
+.OLU2{
+background-color:green;
+grid-area:Mide;
+}
+.OLU3{
+background-color:green;
+grid-area:Jide;
+}
+.OLU4{
+background-color:green;
+grid-area:Falowo;
+}
+.OLU5{
+background-color:green;
+grid-area:Emma;

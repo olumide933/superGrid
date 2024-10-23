@@ -1,0 +1,41 @@
+.gridcontainer{
+display:grid;
+height:100vh;
+gap:10px; 
+grid-template-columns:1fr 3fr;
+grid-template-areas:
+"olu olu "
+"olu2 olu3"
+"olu2 olu4"
+"olu5 olu5";
+grid-template-rows:60px 1fr 60px 60px
+
+
+}
+
+.Header{
+background-color:skyblue;
+grid-area:olu;
+color:red;
+align-text:center
+
+
+}
+
+.Sidebar{
+background-color:green;
+grid-area:olu2;
+}
+.Maincontent{
+background-color:hotpink;
+grid-area:olu3;
+}
+.Extracontent{
+background-color:brown;
+grid-area:olu4;
+}
+.Footer{
+background-color:orange;
+grid-area:olu5;
+
+}
